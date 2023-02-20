@@ -24,6 +24,13 @@
 # 24 -> 4  16  4
 #     60 -> 10  40  10
 
+# 1 способ:
+# number_cranes = int (input("Введите количество журавликов: "))
+# print((number_cranes//6), ((number_cranes//6)*4), (number_cranes//6))
 
-number_cranes = int (input("Введите количество журавликов: "))
-print((number_cranes//6), ((number_cranes//6)*4), (number_cranes//6))
+#Второй способ:
+number_cranes = int (input("Введите количество журавликов: "))  
+x = number_cranes // 6
+k = (x+x)*2
+
+print(x,k,x)
